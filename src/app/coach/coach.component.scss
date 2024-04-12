@@ -1,0 +1,18 @@
+.coach-container{
+    border: 3px solid rgb(211, 5, 41);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+    background-color: rgba(240, 248, 255, 0.4);
+    max-width: 300px;    
+    display: flex; /* Utiliser la flexbox */
+    flex-direction: column;
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center;
+}
+img{
+    border: 3px solid rgb(14, 73, 157);
+    max-height: 300px;
+    max-width: 250px;
+    border-radius: 5px;
+}
