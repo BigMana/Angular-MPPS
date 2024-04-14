@@ -21,37 +21,37 @@ export class AppComponent implements OnInit{
       'Romain',
       'Cadot',
       'ROM1',
-      '../assets/img/mais.jpg'
+      'assets/img/mais.jpg'
     );
     this.my2Coach = new Coach(
       'XMAN',
       'Cadot',
       'XMAN',
-      '../assets/img/cuistot.jpg'
+      'assets/img/cuistot.jpg'
     );
     this.my3Coach = new Coach(
       'NICO',
       'Cadot',
       'NICO',
-      '../assets/img/king.jpg'
+      'assets/img/king.jpg'
     );
     this.my4Coach = new Coach(
       'SEB',
       'Cadot',
       'SEB',
-      '../assets/img/fauteuil-roulant.jpg'
+      'assets/img/fauteuil-roulant.jpg'
     );
     this.my5Coach = new Coach(
       'JULEL',
       'Cadot',
       'JULEL',
-      '../assets/img/tortue.jpg'
+      'assets/img/tortue.jpg'
     );
     this.my6Coach = new Coach(
       'Showtime',
       'Coach',
       'COACH',
-      '../assets/img/brain.jpg'
+      'assets/img/brain.jpg'
     );
   }
 }
