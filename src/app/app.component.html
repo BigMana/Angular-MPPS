@@ -1,11 +1,10 @@
 <div class="flex">
-<app-coach [coach]="myCoach"></app-coach>
-<app-coach [coach]="my2Coach"></app-coach>
-<app-coach [coach]="my3Coach"></app-coach>
-<app-coach [coach]="my4Coach"></app-coach>
-<app-coach [coach]="my5Coach"></app-coach>
-<app-coach [coach]="my6Coach"></app-coach>
+<app-coach *ngFor="let coach of coaches" 
+            [coach]="coach"></app-coach>
 </div>
-<app-player></app-player>
+<div class="flex">
+<app-player *ngFor="let player of players"
+            [player]="player"></app-player>
+</div>
 <app-draft></app-draft>
 <app-coach-room></app-coach-room>

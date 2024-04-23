@@ -1,16 +1,18 @@
 <div class="player-container">
+    
     <h2>Player : </h2>
-    <h2>Prénom : {{firstName}}</h2>
-    <h2>Nom : {{lastName}}</h2>
-    <p *ngIf="blesse==true">Est bléssé <img class="iconeBlesse" [src]="imageBlesse" alt="blessé"></p>
-    <p>Equipe : {{team}}</p>
-    <p>poste : {{poste}}</p>
-    <p>prix : {{prix}} M$</p>=
-    <p>points : {{points}}</p>
-    <p>rebonds : {{rebonds}}</p>
-    <p>assist : {{assist}}</p>
-    <p>interceptions : {{interceptions}}</p>
-    <p>contres : {{contres}}</p>
-    <p>minutesEnJeux : {{minutesEnJeux}}</p>
-    <p>pourcentageJoues : {{pourcentageJoues}}%</p>
+    <h2>Prénom : {{player.firstName}}</h2>
+    <h2>Nom : {{player.lastName}}</h2>
+    <p *ngIf="player.blesse==true">Est bléssé <img class="iconeBlesse" [src]="player.imageBlesse" alt="blessé"></p>
+    <p>Equipe : {{player.team}}</p>
+    <p>poste : {{player.poste}}</p>
+    <p>prix : {{player.price}} M$</p>=
+    <p>points : {{player.points}}</p>
+    <p>rebonds : {{player.rebonds}}</p>
+    <p>assist : {{player.assist}}</p>
+    <p>interceptions : {{player.interceptions}}</p>
+    <p>contres : {{player.contres}}</p>
+    <p>minutesEnJeux : {{player.minutesEnJeux}}</p>
+    <p>pourcentageJoues : {{player.pourcentageJoues}}%</p>
 </div>
+

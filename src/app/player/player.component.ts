@@ -11,10 +11,9 @@ export class PlayerComponent implements OnInit{
 
   firstName!: String;
   lastName!: String;
-  dateBirth!: Date;
   team!:String;
   poste!: String;
-  prix!: number;
+  price!: number;
   points!: number;
   rebonds!: number;
   assist!: number;
@@ -23,23 +22,22 @@ export class PlayerComponent implements OnInit{
   minutesEnJeux!: number;
   pourcentageJoues!: number;
   blesse?: Boolean;
-  imageBlesse!: String;
+  imageBlesse?: String;
 
   ngOnInit(){  
-    this.firstName = 'Luka';
-    this.lastName = 'Doncic';
-    this.team = 'DAL';
-    this.poste = 'F';
-    this.prix = 32;
-    this.points = 36,6;
-    this.rebonds = 9;
-    this.assist = 9,8;
-    this.interceptions = 1,4;
-    this.contres = 0,6;
-    this.minutesEnJeux = 37,6;
-    this.pourcentageJoues = 87;
-    this.blesse = true;
-    this.imageBlesse = '../assets/img/pansement.png';
-
+    // this.firstName = 'Luka';
+    // this.lastName = 'Doncic';
+    // this.team = 'DAL';
+    // this.poste = 'F';
+    // this.price = 32;
+    // this.points = 36,6;
+    // this.rebonds = 9;
+    // this.assist = 9,8;
+    // this.interceptions = 1,4;
+    // this.contres = 0,6;
+    // this.minutesEnJeux = 37,6;
+    // this.pourcentageJoues = 87;
+    // this.blesse = true;
+    // this.imageBlesse = '../assets/img/pansement.png';
   }
 }
