@@ -10,7 +10,7 @@ import { CoachRoomComponent } from './coach-room/coach-room.component';
 import { TitleMppsComponent } from './title-mpps/title-mpps.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { MenuComponent } from './menu/menu.component';
-import { ButtonMenu } from './button-menu/button-menu.component';
+import { ButtonMenuComponent } from './button-menu/button-menu.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +21,8 @@ import { ButtonMenu } from './button-menu/button-menu.component';
     CoachRoomComponent,
     TitleMppsComponent,
     LandingPageComponent,
-    MenuComponent
+    MenuComponent,
+    ButtonMenuComponent,
   ],
   imports: [
     BrowserModule

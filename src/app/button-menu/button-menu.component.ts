@@ -7,7 +7,7 @@ import { RouterModule } from '@angular/router';
   templateUrl: './button-menu.component.html',
   styleUrls: ['./button-menu.component.scss']
 })
-export class MenuComponent implements OnInit{
+export class ButtonMenuComponent implements OnInit{
   @Input() buttonMenu!: ButtonMenu;
   
   name!: String;

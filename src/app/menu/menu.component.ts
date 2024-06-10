@@ -11,11 +11,11 @@ export class MenuComponent implements OnInit{
   buttonMenus!: ButtonMenu[];
   ngOnInit() {
     this.buttonMenus = [
-      {
-      name: 'Coach Room',
-      link: 'coach-room',
-      imageUrl: 'assets/img/menu/coachRoomButton.jpg'
-      },
+      // {
+      // name: 'Coach Room',
+      // link: 'coach-room',
+      // imageUrl: 'assets/img/menu/coachRoomButton.jpg'
+      // },
       {
       name: 'Coach Room',
       link: 'coach-room',
