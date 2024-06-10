@@ -13,44 +13,6 @@ export class AppComponent implements OnInit{
   players!: Player[];
 
   ngOnInit() {
-    this.coaches = [
-      {
-        firstName: 'Romain',
-        lastName: 'Cadot',
-        nickName: 'ROM1',
-        imageUrl: 'assets/img/mais.jpg'
-      },
-      {
-        firstName: 'XMAN',
-        lastName: 'Cadot',
-        nickName: 'XMAN',
-        imageUrl: 'assets/img/cuistot.jpg'
-      },
-      {
-        firstName: 'NICO',
-        lastName: 'Cadot',
-        nickName: 'NICO',
-        imageUrl: 'assets/img/king.jpg'
-      },
-      {
-        firstName: 'SEB',
-        lastName: 'Cadot',
-        nickName: 'SEB',
-        imageUrl: 'assets/img/fauteuil-roulant.jpg'
-      },
-      {
-        firstName: 'JULEL',
-        lastName: 'Cadot',
-        nickName: 'JULEL',
-        imageUrl: 'assets/img/tortue.jpg'
-      },
-      {
-        firstName: 'Showtime',
-        lastName: 'Coach',
-        nickName: 'COACH',
-        imageUrl: 'assets/img/brain.jpg'
-      }
-    ],
     this.players = [
       {
         firstName: 'Luka',

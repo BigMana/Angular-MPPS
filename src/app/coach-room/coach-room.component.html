@@ -1,1 +1,6 @@
-<p>coach-room works!</p>
+<p>Coach Room</p>
+<div class="flex">
+    
+    <app-coach *ngFor="let coach of coaches" 
+                [coach]="coach"></app-coach>
+</div>
